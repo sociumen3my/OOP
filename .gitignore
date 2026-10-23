@@ -1,0 +1,9 @@
+**/.DS_Store
+*.obj
+*.exe
+!*/
+!*.cpp
+!*.hpp
+!*.cc
+!Makefile
+!CMakeLists.txt

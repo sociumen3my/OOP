@@ -12,7 +12,7 @@ int main()
 	}
 
 	delete p1;
-	std::cout << *(p1) << " visyachiy ukazatel\n";
+	std::cout << *(p1) << "dangling pointer\n";
 	p1 = nullptr; 
 	delete p1;
 
