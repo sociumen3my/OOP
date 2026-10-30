@@ -44,7 +44,7 @@ int main()
 		resVec.push_back(moddified::area<int, float>(cArray[i], y));
 	}
 
-	for (auto it = cVector.begin(); it != cVector.end(); ++it)
+	for (std::vector<int>::iterator it = cVector.begin(); it != cVector.end(); ++it)
 	{
 		resList.push_back(moddified::area<int, float>(*it, y));
 	}
